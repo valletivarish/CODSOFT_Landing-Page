@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    font-family: "Open Sans",sans-serif;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 76px;
+}
+.section ul{
+    display: flex;
+    list-style:  none;
+    gap: 30px;
+}
+.container {
+    position: relative;
+    background: linear-gradient(#150B63, #06014B);
+    height: 100vh;
+  }
+.logo h2{
+  margin-left:50px;
+  cursor: pointer;
+}
+.end{
+  margin-right:45px;
+}
+li i{
+  margin-right: 5px;
+}
+#cyan{
+  color: cyan;
+  cursor: pointer;
+}
+.hovereffect:hover, .end:hover i{
+  color: cyan;
+  cursor: pointer;
+  transition: all ease 0.3s;
+}
+
+.cyan1:hover,
+.cyan1:hover i {
+    color: cyan;
+    cursor: pointer;
+    transition: all ease 0.3s;
+}
+section{
+  height: 795.78px;
+}
+.slider{
+  height: 565.78px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 130px;
+}
+img{
+  height: 475.78px;
+  width: 555px;
+}
+.content{
+  height: 232.19px;
+  margin-left: 100px;
+  width: 555px;
+}
+.img{
+  margin-right: 100px;
+}
+.slider .content h1{
+  font-size: 48px;
+  margin: 0 0 15px;
+}
+.content p{
+  font-size: 14px;
+  margin: 0 0 16px;
+  text-align: justify;
+  color: white;
+}
+.content button{
+  height: 44px;
+  width: 165px;
+  color: #FFFFFF;
+  background-color: #00BBF0;
+  margin: 5px;
+  padding: 10px 15px;
+  border: none;
+  font-size: 15px;
+}
+.content button:hover{
+  background-color: #00bcf0a5;
+  cursor: pointer;
+}
+.wave {
+  position: absolute;
+  height: 150px;
+  width: 100%;
+  background-color: linear-gradient(#150B63, #06014B);
+  bottom: 0;
+}
+
+.wave::before, .wave::after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 50% 100%;
+}
+
+.wave::before {
+  width: 55%;
+  height: 100%;
+  background-color: #07024d;
+  right: -1.2%;
+  top: 38%;
+}
+.wave::after {
+  width: 55%;
+  height: 109%;
+  background-color: #FFFFFF;
+  left: -1.5%;
+  top: 59%;
+}
+.services{
+  margin-top: 10%;
+}
+.services .title h1{
+  color: black;
+  text-align: center;
+}
+.services .title span{
+  color: #00BBF0;
+  text-align: center;
+  font-size: 32px;
+}
+.services .title p{
+  color: black;
+  font-size: 16px;
+  margin: 10px 0 0;
+  text-align: center;
+}
+.cards{
+  height: 343;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.box{
+  height: 330px;
+  width: 390px;
+  background-color: #f8f8f9;
+  border-radius: 5px;
+  margin: 25px;
+}
+.box img{
+  margin-top: 25px;
+  height: 75px;
+  width: 75px;
+  margin-left: 40%;
+}
+.cards h3, p, h4{
+  margin-top: 25px;
+  color: black;
+  text-align: center;
+}
+.cards p{
+  font-size: 17px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.cards h4{
+  font-weight: 500;
+  font-size: 16px;
+}
+.button{
+  display: flex;
+  justify-content: center;
+}
+.button button{
+  height: 44px;
+  width: 165px;
+  color: #FFFFFF;
+  background-color: #00BBF0;
+  margin: 5px;
+  padding: 10px 15px;
+  border: none;
+  font-size: 15px;
+  margin-bottom: 85px;
+}
+.button button:hover{
+  background-color: #00bcf0a5;
+  cursor: pointer;
+}
+.about-us{
+  height: 749.19px;
+  background-color: #00204A;
+}
+.about-us .title h1{
+  text-align: center;
+  font-size: 32px;
+  padding-top: 80px;
+}
+.about-us .title span{
+  color:#00BBF0;
+}
+.about-us .title p{
+  color: white;
+}
+.about-us .content{
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.intoduction{
+  margin-right: 10%;
+}
+.intoduction h3{
+  font-size: 28px;
+  margin: 0 0 8px;
+  margin-top: 50px;
+}
+.intoduction p{
+  font-size: 16px;
+  margin: 15px 0 16px;
+}
+
+.why-choose-us .title{
+  display: grid;
+  grid-template-rows: auto;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.title img{
+  height: 120px;
+  width: 120px;
+  padding: 20px;
+  margin-left: 237px;
+  border: 5px solid black;
+  border-radius: 50%;
+
+}
+.why-choose-us .title .circle{
+  height: 120px;
+  width: 120px;
+}
+.why-choose-us .title h1{
+  color: black;
+  font-size: 32px;
+  margin-bottom: 40px;
+  text-align: center;
+  margin-top: 30px;
+}
+.why-choose-us .title p{
+  color: black;
+  font-size: 16px;
+  margin: 20px;
+}
+.why-choose-us .title h4{
+  font-size: 20px;
+}
+.why-choose-us .title button{
+  height: 44px;
+  width: 165px;
+  color: #FFFFFF;
+  background-color: #00BBF0;
+  margin: 5px;
+  padding: 10px 15px;
+  border: none;
+  font-size: 15px;
+  margin-bottom: 85px;
+  margin-left: 221px;
+}
+.why-choose-us .title button:hover{
+  background-color: #00bcf0a5;
+  cursor: pointer;
+}
+.why-choose-us .title span{
+  color: #00BBF0;
+}
+
+
